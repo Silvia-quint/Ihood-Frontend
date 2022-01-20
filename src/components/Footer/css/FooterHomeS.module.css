@@ -1,0 +1,41 @@
+.footer{
+    width: 100vw;
+    height: 6%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    background: linear-gradient(#5152C3 40%, #6263c9 75%, #7879F1 95%);
+}
+
+.dropdownFooterMenu{
+    background: linear-gradient(#7879F1 35%, #6263c9 65%, #5152C3 95%);
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.dropdownFooterItem{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 0.5rem
+}
+
+.footerText {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0.5rem 5.5rem 0 0;
+}
+
+.footerText:hover {
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+.footerText:focus {
+    filter: drop-shadow(1px 3px 8px #5152C3);
+}

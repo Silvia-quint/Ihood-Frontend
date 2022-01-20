@@ -61,14 +61,6 @@ class FormLogin extends Component {
     render() {
         return (
     <div className="containerPrincipal">
-        <div className="containerTop">
-            <div>
-                <Icon className="flag" icon="emojione:flag-for-spain" />
-            </div>
-            <div>
-                <Icon className="flag" icon="emojione:flag-for-united-kingdom" />
-            </div>
-        </div>
         <div className="login">
             <div className="title">
                 <div className="hiNeighbor">

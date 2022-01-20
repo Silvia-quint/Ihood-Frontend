@@ -12,14 +12,15 @@
     font-size: 15px;
     font-weight: bold;
     text-align: center;
-    color: #5152C3;
+    color: #383979;
 }
 .loginButton{
     width: 140px;
     height: 25px;
     font-family: 'Raleway', sans-serif;
-    color: #6969e9;
+    color: #383979;
     font-size: 15px;
-    border: 1px solid #6969e9;
+    font-weight: bold;
+    border: 1px solid #383979;
     border-radius: 30px;
 }
