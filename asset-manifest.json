@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Ihood-Frontend/static/css/main.56b30830.chunk.css",
+    "main.js": "/Ihood-Frontend/static/js/main.c470ad34.chunk.js",
+    "main.js.map": "/Ihood-Frontend/static/js/main.c470ad34.chunk.js.map",
+    "runtime-main.js": "/Ihood-Frontend/static/js/runtime-main.61f4d46e.js",
+    "runtime-main.js.map": "/Ihood-Frontend/static/js/runtime-main.61f4d46e.js.map",
+    "static/css/2.65839307.chunk.css": "/Ihood-Frontend/static/css/2.65839307.chunk.css",
+    "static/js/2.6be09d14.chunk.js": "/Ihood-Frontend/static/js/2.6be09d14.chunk.js",
+    "static/js/2.6be09d14.chunk.js.map": "/Ihood-Frontend/static/js/2.6be09d14.chunk.js.map",
+    "static/js/3.078e20a8.chunk.js": "/Ihood-Frontend/static/js/3.078e20a8.chunk.js",
+    "static/js/3.078e20a8.chunk.js.map": "/Ihood-Frontend/static/js/3.078e20a8.chunk.js.map",
+    "index.html": "/Ihood-Frontend/index.html",
+    "static/css/2.65839307.chunk.css.map": "/Ihood-Frontend/static/css/2.65839307.chunk.css.map",
+    "static/css/main.56b30830.chunk.css.map": "/Ihood-Frontend/static/css/main.56b30830.chunk.css.map",
+    "static/js/2.6be09d14.chunk.js.LICENSE.txt": "/Ihood-Frontend/static/js/2.6be09d14.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.61f4d46e.js",
+    "static/css/2.65839307.chunk.css",
+    "static/js/2.6be09d14.chunk.js",
+    "static/css/main.56b30830.chunk.css",
+    "static/js/main.c470ad34.chunk.js"
+  ]
+}
