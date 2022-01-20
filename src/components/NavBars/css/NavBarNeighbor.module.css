@@ -1,0 +1,80 @@
+.navBar{
+    width: 100vw;
+    height: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background: linear-gradient(#7879F1 25%, #6263c9 50%, #5152C3 65%);
+}
+
+.iconNavBar {
+    font-size: 3.5rem;
+    margin-left: 2vh;
+}
+
+.iconNavBar:hover {
+    font-size: 4rem;
+}
+
+.iconNavBar:focus {
+    filter: drop-shadow(1px 3px 8px #5152C3);
+}
+
+.navBarContent {
+    width: 70vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.navBarText {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0.5rem 2rem 0 0;
+}
+
+.navBarText:hover {
+    font-size: 17px;
+    text-decoration: underline;
+}
+.navBarText:focus {
+    filter: drop-shadow(1px 3px 8px #5152C3);
+}
+
+.dropdownNavMenu{
+    background: linear-gradient(#5152C3 40%, #6263c9 65%, #7879F1 95%);
+    border: none;
+}
+
+.dropdownNavItem{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.langNav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    width: 6%;
+    height: 100%;
+}
+
+.flag{
+    font-size: 25px;
+    border-radius: 50%;
+    border:  2px solid #ffffff;
+    margin-right: 2vh;
+}
+.flag:hover {
+    font-size: 30px;
+}
+
+.flag:focus {
+    filter: drop-shadow(1px 3px 8px #5152C3);
+}

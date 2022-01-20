@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './App.css';
 import HomeSignup from './components/Home/HomeSignup';
 import HomeLog from './components/Home/HomeLog';
-import {EnterInvitation} from './components/EnterInvitation/EnterInvitation';
 import UserProfile from './components/UserProfile/UserProfile';
 import MasterProfile from './components/MasterProfile/MasterProfile';
 
@@ -37,16 +36,16 @@ function App() {
     
     if(!user.community_id && user.checked === true) {
       return (
-        <div className="App">
-          <h1>Create-Community-Profile</h1>
-          {/* <Create-Community-Profile /> */}
+        <div className="MasterProfile">
+          <MasterProfile />
         </div>
       )
     }
+
     if(!user.community_id) {
       return (
         <div className="App">
-          <EnterInvitation />
+          <UserProfile />
         </div>
         )
     }

@@ -4,14 +4,18 @@ import {CalendarEvents} from './CalendarEvents';
 import UserInfo from './UserMasterInfo';
 // import NotificView from './NotifMasterView';
 import UsersList from './UsersList';
+import FooterMasterProf from '../Footer/FooterMasterProf';
+import NavBarMaster from '../NavBars/NavBarMaster';
+
+
+
 
 const MasterProfile = () => {
+
   return(
       <div className={styles.pageContainer}>
-         {/* *El NavBar es provisional para distribuir bien los componentes con sus estilos.
-          SUSTITUIR por componente NAvBAr con enrutamiento.
-          Aplicar la misma clase de este navBar al componente NavBAr definitivo para que se apliquen los estilos (en caso de no tenerlos ya) */}
-          <div className={styles.navBar}></div>
+
+          <NavBarMaster />
 
           <div className={styles.profileContainer}>
 
@@ -33,7 +37,8 @@ const MasterProfile = () => {
 
             <div className={styles.decoSingleLine}></div>
 
-            <div className={styles.notifications}>
+            <div className={styles.userslistandNotifContainer}>
+            {/* <NavTool items={menu}/> */}
             <UsersList />
             {/* <NotificView /> */}
             </div>
@@ -48,7 +53,7 @@ const MasterProfile = () => {
 
           </div>
 
-          <div className={styles.footer}></div>
+          <FooterMasterProf />
       </div>
   )
 }
